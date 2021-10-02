@@ -11,6 +11,16 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "mat-helper": [
+        "dist/mat-helper/mat-helper",
+        "dist/mat-helper"
+      ],
+      "netcore-auth": [
+        "dist/netcore-auth/netcore-auth",
+        "dist/netcore-auth"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,

@@ -1,0 +1,6 @@
+<p>mat-ui-form works!</p>
+<form [formGroup]="formGroup">
+  <div *ngFor="let control of controls">
+    <div>{{control.label}} {{control.name}}</div>
+  </div>
+</form>
